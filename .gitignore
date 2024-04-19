@@ -1,0 +1,8 @@
+# Don't include python virtual environment
+venv/
+
+# Secret files
+.env
+
+# Don't include schedules
+*.txt
