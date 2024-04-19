@@ -8,3 +8,6 @@ Setup assumes [python](https://www.get-python.org/downloads/release/python-3118/
 Installing dependencies:
 - All dependencies required are stored in [requirements.txt](requirements.txt). 
 - To install these to your python intallation / venv, run the following command: `python -m pip install -r requirements.txt`
+
+## Generating Schedule
+To generate a schedule, simply run the main python file: `python main.py`. This wil generate a txt file with the schedule in `/schedules`.
