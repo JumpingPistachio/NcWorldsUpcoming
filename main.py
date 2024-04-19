@@ -43,11 +43,12 @@ def main():
 
     with open(file_path, 'w') as file:
         for qual in nc_quals:
-            file.write("- {} ({}) - {} {} - Est: <t:{}:f> \n".format(
+            file.write("- {} ({}) - {} {} - Est: <t:{}:f> (<t:{}:R>)\n".format(
                 qual["team"],
                 qual["alliance"],
                 qual["match_number"],
                 parse_division_name(qual["event_key"]),
+                qual["predicted_time"],
                 qual["predicted_time"]
             ))
         
