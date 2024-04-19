@@ -4,5 +4,6 @@ venv/
 # Secret files
 .env
 
-# Don't include schedules
+# Don't include schedules (but include any other needed txts)
 *.txt
+!requirements.txt
